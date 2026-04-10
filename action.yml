@@ -16,4 +16,4 @@ runs:
       run: "${{ github.action_path }}/entrypoint.ps1"
       env:
         IS_VERSION: ${{ inputs.version }}
-        IS_LICENSEKEY: ${{ secrets.INNOSETUPLICENSEKEY }}
+        #IS_LICENSEKEY: ${{ secrets.INNOSETUPLICENSEKEY }}
