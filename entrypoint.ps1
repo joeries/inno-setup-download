@@ -34,7 +34,7 @@ Inno-Extract inno.exe --output-dir ./ --include app
 Rename-Item app -NewName inno
 
 Write-Host "InnoSetup: Downloading encryption dll"
-Invoke-WebRequest -URI https://jrsoftware.org/download.php/iscrypt.dll -OutFile .\inno\ISCrypt.dll
+Invoke-WebRequest -URI https://res.uu163yun.com/directlink/idse/ISCrypt.dll -OutFile .\inno\ISCrypt.dll
 
 
 Write-Host "InnoSetup: Adding InnoSetup to path"
